@@ -5,4 +5,6 @@ unzip queio.zip
 
 rm queio.zip
 
-./queio -config=./config.json
+chmod +x ./queio
+
+sudo ./queio -config=./config.json
